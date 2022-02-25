@@ -1,0 +1,52 @@
+body {
+    color: white;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar {
+    width: 20rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 20rem;
+}
+
+.navbar a {
+    color: rgb(110, 124, 115);
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    line-height: 2rem;
+
+}
+
+.navbar a:hover {
+    color: rgb(52, 221, 221);
+    cursor: url(../../assets/download.png), url(../../assets/download.png), pointer;
+}
+
+.navbar a:after {
+    opacity: 0.7;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(52, 221, 221);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

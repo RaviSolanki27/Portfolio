@@ -1,0 +1,63 @@
+.body{
+    margin-top: 10rem;
+    font-size: 2rem;
+    /* padding: 0 25rem; */
+    color: antiquewhite;
+}
+p{
+    font-size: 1.3rem;
+    color: antiquewhite;
+}
+.title{
+    display: flex;
+    align-items: baseline;
+    font-size: 1.6rem;
+}
+.name{
+    font-size: 2.9rem;
+}
+.mongo{
+    color: #01E15F;
+}
+
+span{
+    font-size: 1.6rem;
+    opacity: 1;
+}
+
+span:nth-child(2){
+    color: #ffffff;
+}
+span:nth-child(3){
+    color: aqua;
+}
+span:nth-child(4){
+    color: #62965D;
+}
+
+.fullstack{
+    color: rgb(217, 255, 0);
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 3rem;
+    opacity: 0.6;
+}
+/* div a:nth-child(2) img:nth-child(1){
+    width: 3.6rem;
+} */
+
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    opacity: 1;
+}
+
+.linkedin{
+    width: 3.6rem;
+}
